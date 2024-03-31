@@ -11,7 +11,7 @@ const Home = () => {
   let [datas, setDatas] = useState([]);
 
   useEffect(() => {
-    fetch("/public/data/categories.json")
+    fetch("/data/categories.json")
       .then((res) => res.json())
       .then((data) => setDatas(data));
   }, []);
@@ -25,7 +25,7 @@ const Home = () => {
       <div className="hero bg-gradient-to-r from-purple-50 to-indigo-50 rounded-xl">
         <div className="hero-content justify-between gap-[300px] flex-col lg:flex-row-reverse">
           <img
-            src="/public/resource/images/user.png"
+            src="/resource/images/user.png"
             className="max-w-sm -mb-4 -mr-10"
           />
           <div>

@@ -14,12 +14,12 @@ let router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        loader: () => fetch("/public/data/jobs.json"),
+        loader: () => fetch("/data/jobs.json"),
       },
       {
         path: "/jobDetails/:id",
         element: <JobDetails />,
-        loader: () => fetch("/public/data/jobs.json"),
+        loader: () => fetch("/data/jobs.json"),
       },
     ],
   },

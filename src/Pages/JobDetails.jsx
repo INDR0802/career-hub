@@ -31,7 +31,7 @@ const JobDetails = () => {
     <>
       <div className="relative h-[50vh] ">
         <img
-          src="/public/resource/images/bg1.png"
+          src="/resource/images/bg1.png"
           alt=""
           className="absolute bottom-0 left-0"
         />
@@ -39,7 +39,7 @@ const JobDetails = () => {
           Job Details
         </h1>
         <img
-          src="/public/resource/images/bg2.png"
+          src="/resource/images/bg2.png"
           alt=""
           className="absolute top-0 right-0"
         />
